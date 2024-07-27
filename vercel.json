@@ -16,5 +16,11 @@
     { "src": "/robots.txt", "dest": "build/public/robots.txt" },
     { "src": "/static/(.*)", "dest": "build/public/static/$1" },
     { "src": "/(.*)", "dest": "build/server.js" }
-  ]
+  ],
+  "functions": {
+    "build/server.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  }
 }

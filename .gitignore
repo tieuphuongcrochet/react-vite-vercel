@@ -13,3 +13,5 @@ cache
 .env.production.local
 
 .idea/**
+
+.vercel
